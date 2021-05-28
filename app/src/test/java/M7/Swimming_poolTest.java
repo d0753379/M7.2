@@ -1,6 +1,4 @@
-﻿package M6_2;
-
-import static org.junit.jupiter.api.Assertions.*;
+﻿import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
