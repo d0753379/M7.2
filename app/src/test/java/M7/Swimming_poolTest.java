@@ -91,25 +91,7 @@ class Swimming_poolTest {
 		assertEquals("Error", exception.getMessage());
 	}
 
-	// 補涵蓋度
-	@Test
-	void test9() throws Exception {
-		Swimming_pool x = new Swimming_pool(false, false, false, 7, 0, 60);
-		x.countPrice();
-		assertEquals(160, x.price);
-	}
-	@Test
-	void test10() throws Exception {
-		Swimming_pool x = new Swimming_pool(false, false, false, 8, 0, 60);
-		x.countPrice();
-		assertEquals(160, x.price);
-	}
-	@Test
-	void test11() throws Exception {
-		Swimming_pool x = new Swimming_pool(false, false, false, 8, 0, 3);
-		x.countPrice();
-		assertEquals(160, x.price);
-	}
+	
 
 	
 }
