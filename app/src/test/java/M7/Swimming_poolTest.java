@@ -1,4 +1,6 @@
-﻿import static org.junit.jupiter.api.Assertions.*;
+package M6_2;
+
+import static org.junit.jupiter.api.Assertions.*;
 
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.AfterEach;
@@ -102,14 +104,12 @@ class Swimming_poolTest {
 		x.countPrice();
 		assertEquals(160, x.price);
 	}
-	
 	@Test
 	void test11() throws Exception {
 		Swimming_pool x = new Swimming_pool(false, false, false, 8, 0, 3);
 		x.countPrice();
 		assertEquals(160, x.price);
 	}
-	
 
 	
 }

@@ -1,3 +1,5 @@
+package M6_2;
+
 public class Swimming_pool {
 	int price;
 	boolean holiday;
