@@ -56,6 +56,22 @@ class Swimming_poolTest {
 
 		assertEquals(125, x.price);
 	}
+	@Test
+	void test7() throws Exception {
+		Swimming_pool x = new Swimming_pool(false, true, true, 5, 0, 3);
+		x.countPrice();
+
+		assertEquals(100, x.price);
+	}
+
+	@Test
+	void test8() {
+		Swimming_pool x = new Swimming_pool(true, false, false, 7, 1, 76);
+		Exception exception = assertThrows(Exception.class,
+				() -> x.countPrice());
+		assertEquals("Error", exception.getMessage());
+	}
+
 
 	
 	
