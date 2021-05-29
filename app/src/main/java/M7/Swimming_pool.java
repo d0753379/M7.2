@@ -1,4 +1,4 @@
-package M6_2;
+package M7;
 
 public class Swimming_pool {
 	int price;

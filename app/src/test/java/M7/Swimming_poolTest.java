@@ -1,4 +1,4 @@
-package M6_2;
+package M7;
 
 import static org.junit.jupiter.api.Assertions.*;
 
