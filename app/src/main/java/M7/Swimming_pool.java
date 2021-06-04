@@ -1,5 +1,5 @@
 package M7;
-
+//1234567894651651651651651651561651654944465564645654654
 public class Swimming_pool {
 	int price;
 	boolean holiday;
