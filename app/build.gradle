@@ -11,7 +11,8 @@ plugins {
     id 'application'
     id 'jacoco'
     //2021.06.04
-    id 'org.sonarqube' version '3.2.0'
+    id 'java'
+    id 'org.sonarqube' version '3.0'
 }
 
 repositories {
