@@ -20,7 +20,7 @@ pipeline {
                 )
             }
         }
-        stage('sonarqube-analysis') {
+        stage('sonarqube') {
             environment {
                 SONAR_TOKEN = credentials('d0753379_swimming-pool')
             }
@@ -32,5 +32,6 @@ pipeline {
                 ...
             }
         }
+        
     }
 }
