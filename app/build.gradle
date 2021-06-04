@@ -10,6 +10,9 @@ plugins {
     // Apply the application plugin to add support for building a CLI application in Java.
     id 'application'
     id 'jacoco'
+    //2021.06.04
+    id 'java'
+    id 'org.sonarqube' version '3.2.0'
 }
 
 repositories {
